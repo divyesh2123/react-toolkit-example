@@ -7,13 +7,14 @@ import {Provider}  from 'react-redux'
 import store from './store/store';
 import Counter from './counter/Counter';
 import Post from './posts/Post';
+import UserInfo from './UserInfo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
 
-    <Post />
+    <UserInfo />
 
     </Provider>
   
