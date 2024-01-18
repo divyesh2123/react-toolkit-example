@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import {Provider}  from 'react-redux'
 import store from './store/store';
 import Counter from './counter/Counter';
+import Post from './posts/Post';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
 
-    <Counter />
+    <Post />
 
     </Provider>
   
