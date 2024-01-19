@@ -8,13 +8,14 @@ import store from './store/store';
 import Counter from './counter/Counter';
 import Post from './posts/Post';
 import UserInfo from './UserInfo';
+import VideoPlayer from './VideoPlayer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
 
-    <UserInfo />
+    <VideoPlayer />
 
     </Provider>
   
